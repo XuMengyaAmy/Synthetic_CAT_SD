@@ -1,0 +1,8 @@
+bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_20220813/gan17/train/ILT_and_Intermediate_shift_0_4_endo_instru_17-18_not_train_step0.sh
+bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_20220813/gan17/train/ILT_and_Intermediate_shift_0_24_endo_instru_17-18_not_train_step0.sh
+bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_20220813/gan17/train/ILT_and_Intermediate_shift_2_4_endo_instru_17-18_not_train_step0.sh
+bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_20220813/gan17/train/ILT_and_Intermediate_shift_2_24_endo_instru_17-18_not_train_step0.sh
+bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_20220813/gan17/train/ILT_and_Intermediate_shift_24_4_endo_instru_17-18_not_train_step0.sh
+bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_20220813/gan17/train/ILT_and_Intermediate_shift_24_24_endo_instru_17-18_not_train_step0.sh
+bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_20220813/gan17/train/ILT_and_Intermediate_shift_248_4_endo_instru_17-18_not_train_step0.sh
+bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_20220813/gan17/train/ILT_and_Intermediate_shift_248_24_endo_instru_17-18_not_train_step0.sh

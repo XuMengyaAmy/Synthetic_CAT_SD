@@ -1,0 +1,25 @@
+1. https://www.cxybb.com/article/weixin_41041772/109820870
+
+2. temp_mask = temp_mask[:, None]
+
+>>> import numpy as np
+>>> a = np.random.rand(3,4)
+>>> print(a)
+[[0.03245307 0.72905378 0.26286953 0.47136335]
+ [0.81972494 0.36306496 0.34675772 0.48948495]
+ [0.6505081  0.3555254  0.98905914 0.25135507]]
+>>> b = a[:, None]
+>>> print(b)
+[[[0.03245307 0.72905378 0.26286953 0.47136335]]
+
+ [[0.81972494 0.36306496 0.34675772 0.48948495]]
+
+ [[0.6505081  0.3555254  0.98905914 0.25135507]]]
+>>> print(a.shape)
+(3, 4)
+>>> print(b.shape)
+(3, 1, 4)
+
+3. just send 18 dataset into step 0 training and change the num_classes. And do not have the step 1 training
+3.1 just replace 17 dataset with 18 dataset.
+EndoInstrument_18_17.py

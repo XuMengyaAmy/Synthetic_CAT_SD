@@ -1,0 +1,66 @@
+outputs torch.Size([12, 8, 512, 512])
+labels torch.Size([12, 512, 512])
+Traceback (most recent call last):
+  File "run.py", line 558, in <module>
+    main(opts)
+  File "run.py", line 151, in main
+    val_score = run_step(opts, world_size, rank, device)
+  File "run.py", line 412, in run_step
+    epoch_loss = trainer.train(
+  File "/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/train.py", line 358, in train
+    loss = criterion(outputs, labels)  # B x H x W 
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 1163, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/nn/functional.py", line 2996, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: CUDA error: an illegal memory access was encountered
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: -6) local_rank: 0 (pid: 2494854) of binary: /home/ren2/anaconda3/envs/CSS/bin/python
+
+
+
+
+
+==================== bilinear ============================
+        # # Wrong: nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
+        # # Correct: nn.Upsample(scale_factor=2, mode="nearest")
+
+        # # sem_logits = F.interpolate(
+        # #     sem_logits_small, size=out_size, mode="nearest", align_corners=False
+        # # )
+        # # ValueError: align_corners option can only be set with the interpolating modes: linear | bilinear | bicubic | trilinear
+        # # This only has an effect when mode is 'linear', 'bilinear', 'bicubic' or 'trilinear'. Default: False
+        # sem_logits = F.interpolate(
+        #     sem_logits_small, size=out_size, mode="nearest"
+        # )
+
+
+
+                # if deeplabmask_upscale:
+                #     a = F.interpolate(
+                #         torch.topk(a, k=upscale_mask_topk, dim=1)[0],
+                #         size=labels.shape[-2:],
+                #         mode="bilinear",
+                #         align_corners=False
+                #     )
+                #     b = F.interpolate(
+                #         torch.topk(b, k=upscale_mask_topk, dim=1)[0],
+                #         size=labels.shape[-2:],
+                #         mode="bilinear",
+                #         align_corners=False
+                #     )
+                if deeplabmask_upscale: # True
+                    print('???????????????????????????????????????????????????')
+                    a = F.interpolate(
+                        torch.topk(a, k=upscale_mask_topk, dim=1)[0],
+                        size=labels.shape[-2:],
+                        mode="nearest",
+                        align_corners=False
+                    )
+                    b = F.interpolate(
+                        torch.topk(b, k=upscale_mask_topk, dim=1)[0],
+                        size=labels.shape[-2:],
+                        mode="nearest",
+                        align_corners=False
+                    )

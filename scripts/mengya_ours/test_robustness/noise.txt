@@ -1,0 +1,2498 @@
+(CSS) ren2@Ren2:~/data2/mengya/mengya_code/CVPR2021_PLOP$ bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/test_robustness_noise.sh
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_instru_lr0.01_0.001/test_robustness/test_script_robustness_corruption_gaussian_noise,/FT_endo_instru_17-18.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_instru_lr0.01_0.001/test_robustness/test_script_robustness_corruption_gaussian_noise,/ILT_endo_instru_17-18_not_train_step0.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/real_with_temp/gaussian_noise,/ILT_24_4_temperature_apply_customized_endo_instru_17-18_not_train_step0.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/synthetic_with_tem/gaussian_noise,/ILT_24_4_temperature_apply_customized_endo_instru_17-18_not_train_step0.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_instru_lr0.01_0.001/test_robustness/test_script_robustness_corruption_shot_noise,/FT_endo_instru_17-18.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_instru_lr0.01_0.001/test_robustness/test_script_robustness_corruption_shot_noise,/ILT_endo_instru_17-18_not_train_step0.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/real_with_temp/shot_noise,/ILT_24_4_temperature_apply_customized_endo_instru_17-18_not_train_step0.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/synthetic_with_tem/shot_noise,/ILT_24_4_temperature_apply_customized_endo_instru_17-18_not_train_step0.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_instru_lr0.01_0.001/test_robustness/test_script_robustness_corruption_impulse_noise,/FT_endo_instru_17-18.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/endo_instru_lr0.01_0.001/test_robustness/test_script_robustness_corruption_impulse_noise,/ILT_endo_instru_17-18_not_train_step0.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/real_with_temp/impulse_noise,/ILT_24_4_temperature_apply_customized_endo_instru_17-18_not_train_step0.sh: No such file or directory
+bash: /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/synthetic_with_tem/impulse_noise,/ILT_24_4_temperature_apply_customized_endo_instru_17-18_not_train_step0.sh: No such file or directory
+endo_instru_17-18_FT On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_FT.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/FT/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step/17-18-endo_instru_FT_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Validation, Class Loss=0.5042487382888794, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.5042487382888794, Class Loss=0.5042487382888794, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.893315
+Mean Acc: 0.200210
+FreqW Acc: 0.811440
+Mean IoU: 0.170679
+Class IoU:
+	class 0: 0.9084510005095568
+	class 1: 0.31309225988823663
+	class 2: 0.1647559895315103
+	class 3: 0.021110719572115754
+	class 4: 0.0
+	class 5: 0.0004274450995756401
+	class 6: 0.20510827255781625
+	class 7: 0.046241981141159946
+	class 8: 0.04759811420893865
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9978895851180688
+	class 1: 0.36865644643617795
+	class 2: 0.29168451232914894
+	class 3: 0.021185634908015446
+	class 4: 0.0
+	class 5: 0.00043356451972944194
+	class 6: 0.20980474366710603
+	class 7: 0.05952870400343706
+	class 8: 0.0529137771853462
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 17.07
+Average Mean IoU 21.93
+Mean IoU first 17.07
+Mean IoU last 0.0
+endo_instru_17-18_FT On GPUs 0,1,2
+Run in 1968s
+endo_instru_17-18_ILT On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.stepLearning for 1 with lrs=[0.001]. 
+[1]
+step 1
+################################################################################
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+task_dict file_name_list {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+
+file_name_list %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step/17-18-endo_instru_ILT_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank0: Validation, Class Loss=0.47723838686943054, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done test
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.47723838686943054, Class Loss=0.47723838686943054, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.888483
+Mean Acc: 0.184538
+FreqW Acc: 0.805196
+Mean IoU: 0.159746
+Class IoU:
+	class 0: 0.905316447856332
+	class 1: 0.2497684299745432
+	class 2: 0.07691190542408145
+	class 3: 0.14563707560129563
+	class 4: 0.07659672770810166
+	class 5: 0.021667356256910637
+	class 6: 0.08290696046000641
+	class 7: 0.03865594669222742
+	class 8: 0.0
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9981717985143459
+	class 1: 0.29237919501886456
+	class 2: 0.1057854501244262
+	class 3: 0.15209668916926883
+	class 4: 0.09973170856202021
+	class 5: 0.05559276624238476
+	class 6: 0.08345593577765986
+	class 7: 0.05816823135856854
+	class 8: 0.0
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 15.97
+Average Mean IoU 21.37
+Mean IoU first 15.97
+Mean IoU last 0.0
+endo_instru_17-18_ILT On GPUs 0,1,2
+Run in 346s
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Model restored from ./checkpoints/step_0911/tem3_rest4_real/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank0: Validation, Class Loss=0.514436662197113, Reg Loss=0.0 (without scaling)
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.514436662197113, Class Loss=0.514436662197113, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.887684
+Mean Acc: 0.175288
+FreqW Acc: 0.800908
+Mean IoU: 0.152924
+Class IoU:
+	class 0: 0.9017391375783691
+	class 1: 0.23079119505092507
+	class 2: 0.0858877257207379
+	class 3: 0.09438279771197217
+	class 4: 0.03813204826018172
+	class 5: 0.02026544586710782
+	class 6: 0.11095823807145101
+	class 7: 0.047079331685745136
+	class 8: 0.0
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9986762650966892
+	class 1: 0.28114451864879036
+	class 2: 0.11639903477318407
+	class 3: 0.09626841778676114
+	class 4: 0.041264841620893306
+	class 5: 0.044889052135708735
+	class 6: 0.11224762335295167
+	class 7: 0.06198877738209184
+	class 8: 0.0
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+
+
+
+
+(CSS) ren2@Ren2:~/data2/mengya/mengya_code/CVPR2021_PLOP$ bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/test_robustness_noise.sh
+endo_instru_17-18_FT On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_FT.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/FT/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Model restored from ./checkpoints/step/17-18-endo_instru_FT_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank0: Validation, Class Loss=0.6100858449935913, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done test
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6100858449935913, Class Loss=0.6100858449935913, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.887210
+Mean Acc: 0.165936
+FreqW Acc: 0.795634
+Mean IoU: 0.147607
+Class IoU:
+	class 0: 0.8953194993910454
+	class 1: 0.2153012483404637
+	class 2: 0.11005324470238877
+	class 3: 0.00959795979492526
+	class 4: 7.465565081061737e-06
+	class 5: 0.00025083282133340075
+	class 6: 0.21112988467167615
+	class 7: 0.011571899432500051
+	class 8: 0.02283618224294337
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9986246275691004
+	class 1: 0.23482304947525878
+	class 2: 0.16151658296210886
+	class 3: 0.009630338499289457
+	class 4: 7.469831219161743e-06
+	class 5: 0.00025639363625196235
+	class 6: 0.2166679622037586
+	class 7: 0.013122639473396699
+	class 8: 0.024711051875265053
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 14.76
+Average Mean IoU 19.55
+Mean IoU first 14.76
+Mean IoU last 0.0
+endo_instru_17-18_FT On GPUs 0,1,2
+Run in 2793s
+endo_instru_17-18_ILT On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!INFO:rank0: *** Test the model on all seen classes...
+
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step/17-18-endo_instru_ILT_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Validation, Class Loss=0.6053627729415894, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6053627729415894, Class Loss=0.6053627729415894, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.881062
+Mean Acc: 0.149354
+FreqW Acc: 0.787228
+Mean IoU: 0.131911
+Class IoU:
+	class 0: 0.8919660241234004
+	class 1: 0.1636799552239627
+	class 2: 0.04914087051108808
+	class 3: 0.06329015251697902
+	class 4: 0.06552405022694102
+	class 5: 0.01515476430448263
+	class 6: 0.06323365345442859
+	class 7: 0.007117719732334795
+	class 8: 0.0
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9986102120384681
+	class 1: 0.17810582690577223
+	class 2: 0.06358773929808567
+	class 3: 0.06486214156961669
+	class 4: 0.08526214750175597
+	class 5: 0.030538210574032887
+	class 6: 0.06357963421274507
+	class 7: 0.008989694615299183
+	class 8: 0.0
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 13.19
+Average Mean IoU 13.19
+Mean IoU first 0.0
+Mean IoU last 0.0
+endo_instru_17-18_ILT On GPUs 0,1,2
+Run in 2713s
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Model restored from ./checkpoints/step_0911/tem3_rest4_real/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank0: Validation, Class Loss=0.6485300660133362, Reg Loss=0.0 (without scaling)
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6485300660133362, Class Loss=0.6485300660133362, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.880838
+Mean Acc: 0.142609
+FreqW Acc: 0.784386
+Mean IoU: 0.126957
+Class IoU:
+	class 0: 0.8893031705486109
+	class 1: 0.15010726136824196
+	class 2: 0.056867592911584434
+	class 3: 0.03632297299607572
+	class 4: 0.02699662542181608
+	class 5: 0.012990239173311543
+	class 6: 0.0891107548086892
+	class 7: 0.00787571564774799
+	class 8: 0.0
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9990877457663165
+	class 1: 0.166208228477778
+	class 2: 0.07240447187271767
+	class 3: 0.03667355294558753
+	class 4: 0.02929966597404002
+	class 5: 0.023199302839742166
+	class 6: 0.0900494549386781
+	class 7: 0.009172331930503623
+	class 8: 0.0
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 12.7
+Average Mean IoU 15.32
+Mean IoU first 12.7
+Mean IoU last 0.0
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2
+Run in 871s
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_gaussian_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_gaussian_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 2139, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step1_synthetic_mengya/synthetic_temp_shift/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+INFO:rank2: Done test
+INFO:rank1: Done test
+INFO:rank0: Validation, Class Loss=0.6433275938034058, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6433275938034058, Class Loss=0.6433275938034058, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.884401
+Mean Acc: 0.177688
+FreqW Acc: 0.797143
+Mean IoU: 0.153297
+Class IoU:
+	class 0: 0.8992040914511785
+	class 1: 0.22679692198841933
+	class 2: 0.0765162846032032
+	class 3: 0.09407422900720742
+	class 4: 0.060060911847155285
+	class 5: 0.019240536159909092
+	class 6: 0.07290556716666637
+	class 7: 0.004009840418768895
+	class 8: 0.06613861339050606
+	class 9: 0.014022987359268069
+Class Acc:
+	class 0: 0.9970959113269258
+	class 1: 0.2699386315039733
+	class 2: 0.10164883167560818
+	class 3: 0.09563134523773555
+	class 4: 0.067644550571363
+	class 5: 0.0644455487615115
+	class 6: 0.07347552840215181
+	class 7: 0.005233085140820861
+	class 8: 0.07724164740335111
+	class 9: 0.024521980537613612
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 15.33
+Average Mean IoU 15.33
+Mean IoU first 0.0
+Mean IoU last 0.0
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2
+Run in 151s
+endo_instru_17-18_FT On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_FT.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/FT/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Model restored from ./checkpoints/step/17-18-endo_instru_FT_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank0: Validation, Class Loss=0.6147221326828003, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done test
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6147221326828003, Class Loss=0.6147221326828003, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.885999
+Mean Acc: 0.165052
+FreqW Acc: 0.794306
+Mean IoU: 0.145521
+Class IoU:
+	class 0: 0.8954446557487499
+	class 1: 0.2206272207194812
+	class 2: 0.11791808957613881
+	class 3: 0.010840153388999529
+	class 4: 0.0
+	class 5: 0.00036397465949346535
+	class 6: 0.15599537232191382
+	class 7: 0.017042536653838865
+	class 8: 0.036981898463882765
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9986776235592818
+	class 1: 0.24379167624319975
+	class 2: 0.1782348143607292
+	class 3: 0.010870397177255913
+	class 4: 0.0
+	class 5: 0.0003730671448834733
+	class 6: 0.1589522845701199
+	class 7: 0.020188302579038475
+	class 8: 0.039435592552894916
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 14.55
+Average Mean IoU 23.32
+Mean IoU first 14.55
+Mean IoU last 0.0
+endo_instru_17-18_FT On GPUs 0,1,2
+Run in 501s
+endo_instru_17-18_ILT On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Model restored from ./checkpoints/step/17-18-endo_instru_ILT_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank2: Done test
+INFO:rank1: Done test
+INFO:rank0: Validation, Class Loss=0.6106945276260376, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6106945276260376, Class Loss=0.6106945276260376, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.880855
+Mean Acc: 0.147030
+FreqW Acc: 0.787033
+Mean IoU: 0.130150
+Class IoU:
+	class 0: 0.8921320486861022
+	class 1: 0.16337733229648754
+	class 2: 0.04647506481856758
+	class 3: 0.07336844125800436
+	class 4: 0.05009343059462297
+	class 5: 0.013391901663530485
+	class 6: 0.04959088724790961
+	class 7: 0.013067200908977368
+	class 8: 0.0
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9987845074792874
+	class 1: 0.17925989495218786
+	class 2: 0.0595596680995708
+	class 3: 0.07568074852720896
+	class 4: 0.06137661519536438
+	class 5: 0.028570605477852097
+	class 6: 0.049814081122386396
+	class 7: 0.017256393654899845
+	class 8: 0.0
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 13.01
+Average Mean IoU 13.01
+Mean IoU first 0.0
+Mean IoU last 0.0
+endo_instru_17-18_ILT On GPUs 0,1,2
+Run in 151s
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step_0911/tem3_rest4_real/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: Validation, Class Loss=0.6576755046844482, Reg Loss=0.0 (without scaling)
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6576755046844482, Class Loss=0.6576755046844482, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.880287
+Mean Acc: 0.140888
+FreqW Acc: 0.783683
+Mean IoU: 0.124984
+Class IoU:
+	class 0: 0.8892597570009337
+	class 1: 0.14837876405877468
+	class 2: 0.055342157843050264
+	class 3: 0.042698934411874494
+	class 4: 0.017689659294281453
+	class 5: 0.013293883471166142
+	class 6: 0.06692037697533625
+	class 7: 0.01625506222783974
+	class 8: 0.0
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9991845837148728
+	class 1: 0.1659887478294348
+	class 2: 0.06994270268269037
+	class 3: 0.043239460624235684
+	class 4: 0.01868204787912352
+	class 5: 0.02481976823740204
+	class 6: 0.06742114222094721
+	class 7: 0.019600194237612067
+	class 8: 0.0
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 12.5
+Average Mean IoU 21.25
+Mean IoU first 12.5
+Mean IoU last 0.0
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2
+Run in 151s
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_shot_noisetxt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_shot_noisetxt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noisetxt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Traceback (most recent call last):
+  File "run.py", line 713, in <module>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noisetxt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Traceback (most recent call last):
+  File "run.py", line 713, in <module>
+    main(opts)
+  File "run.py", line 213, in main
+    val_score = run_step(opts, world_size, rank, device)
+  File "run.py", line 247, in run_step
+    main(opts)
+      File "run.py", line 213, in main
+train_dst, val_dst, test_dst, n_classes = get_dataset(opts)
+  File "run.py", line 114, in get_dataset
+    val_dst = dataset(
+  File "/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/dataset/EndoInstrument.py", line 282, in __init__
+    val_score = run_step(opts, world_size, rank, device)
+  File "run.py", line 247, in run_step
+    train_dst, val_dst, test_dst, n_classes = get_dataset(opts)
+  File "run.py", line 114, in get_dataset
+    self.dataset = EndoInstrumentSegmentation(root, file_path, train=train, transform=transform)
+    val_dst = dataset(  File "/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/dataset/EndoInstrument.py", line 113, in __init__
+
+  File "/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/dataset/EndoInstrument.py", line 282, in __init__
+    fp=open(file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noisetxt'
+    self.dataset = EndoInstrumentSegmentation(root, file_path, train=train, transform=transform)
+  File "/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/dataset/EndoInstrument.py", line 113, in __init__
+    fp=open(file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noisetxt'
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_shot_noisetxt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noisetxt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Traceback (most recent call last):
+  File "run.py", line 713, in <module>
+    main(opts)
+  File "run.py", line 213, in main
+    val_score = run_step(opts, world_size, rank, device)
+  File "run.py", line 247, in run_step
+    train_dst, val_dst, test_dst, n_classes = get_dataset(opts)
+  File "run.py", line 114, in get_dataset
+    val_dst = dataset(
+  File "/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/dataset/EndoInstrument.py", line 282, in __init__
+    self.dataset = EndoInstrumentSegmentation(root, file_path, train=train, transform=transform)
+  File "/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/dataset/EndoInstrument.py", line 113, in __init__
+    fp=open(file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noisetxt'
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 0 (pid: 686570) of binary: /home/ren2/anaconda3/envs/CSS/bin/python3
+Traceback (most recent call last):
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py", line 193, in <module>
+    main()
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py", line 189, in main
+    launch(args)
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py", line 174, in launch
+    run(args)
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/run.py", line 715, in run
+    elastic_launch(
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 245, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+run.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2022-10-03_17:49:14
+  host      : Ren2
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 686571)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2022-10-03_17:49:14
+  host      : Ren2
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 686572)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2022-10-03_17:49:14
+  host      : Ren2
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 686570)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+endo_instru_17-18_FT On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_FT.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1Learning for 1 with lrs=[0.001].
+
+################################################################################
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_listtask_dict  ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']{0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+
+file_name_list %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']
+
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/FT/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step/17-18-endo_instru_FT_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Validation, Class Loss=0.5916860699653625, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.5916860699653625, Class Loss=0.5916860699653625, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.887070
+Mean Acc: 0.164995
+FreqW Acc: 0.793934
+Mean IoU: 0.147934
+Class IoU:
+	class 0: 0.8932619264125459
+	class 1: 0.2282464736855125
+	class 2: 0.09281513520883296
+	class 3: 0.010720289792664076
+	class 4: 0.0006361403615805358
+	class 5: 0.0004618177201266555
+	class 6: 0.20578335924342014
+	class 7: 0.0207538908650236
+	class 8: 0.02666569377222613
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9985053551937333
+	class 1: 0.25233435836822565
+	class 2: 0.12263385644601502
+	class 3: 0.010744532850896509
+	class 4: 0.000638670569238329
+	class 5: 0.0004767769303337053
+	class 6: 0.21302589363038718
+	class 7: 0.022159565597514592
+	class 8: 0.029427240606108098
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 14.79
+Average Mean IoU 14.79
+Mean IoU first 0.0
+Mean IoU last 0.0
+endo_instru_17-18_FT On GPUs 0,1,2
+Run in 316s
+endo_instru_17-18_ILT On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step/17-18-endo_instru_ILT_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Validation, Class Loss=0.604343593120575, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.604343593120575, Class Loss=0.604343593120575, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.879569
+Mean Acc: 0.143783
+FreqW Acc: 0.783413
+Mean IoU: 0.127014
+Class IoU:
+	class 0: 0.8893961249496972
+	class 1: 0.15979523365981993
+	class 2: 0.03152419683822419
+	class 3: 0.04005429596668016
+	class 4: 0.0994230154349633
+	class 5: 0.006491060975305797
+	class 6: 0.036875244757390055
+	class 7: 0.006578135973277078
+	class 8: 0.0
+	class 9: 0.0
+Class Acc:
+	class 0: 0.998838312934315
+	class 1: 0.17322734752653102
+	class 2: 0.03869802522035647
+	class 3: 0.04049554784671676
+	class 4: 0.12751923170292792
+	class 5: 0.013704095816298707
+	class 6: 0.03702004390099996
+	class 7: 0.008330777342290409
+	class 8: 0.0
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 12.7
+Average Mean IoU 12.7
+Mean IoU first 0.0
+Mean IoU last 0.0
+endo_instru_17-18_ILT On GPUs 0,1,2
+Run in 146s
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_18.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_18.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 1639, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step_0911/tem3_rest4_real/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Validation, Class Loss=0.6473336219787598, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6473336219787598, Class Loss=0.6473336219787598, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.879320
+Mean Acc: 0.137614
+FreqW Acc: 0.781043
+Mean IoU: 0.122664
+Class IoU:
+	class 0: 0.8871412762513355
+	class 1: 0.1504731589972902
+	class 2: 0.04297656229363952
+	class 3: 0.020925434330296793
+	class 4: 0.05513717835565929
+	class 5: 0.006431281222997835
+	class 6: 0.05558897168228948
+	class 7: 0.00796624217246878
+	class 8: 0.0
+	class 9: 0.0
+Class Acc:
+	class 0: 0.9991425406968182
+	class 1: 0.16658486436486133
+	class 2: 0.052312634946856534
+	class 3: 0.02098710573263819
+	class 4: 0.05939063606856325
+	class 5: 0.012331381572769941
+	class 6: 0.05606894708374422
+	class 7: 0.009318644275373352
+	class 8: 0.0
+	class 9: 0.0
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 12.27
+Average Mean IoU 12.27
+Mean IoU first 0.0
+Mean IoU last 0.0
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2
+Run in 146s
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_impulse_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_impulse_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 2139, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+INFO:rank2: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step1_synthetic_mengya/synthetic_temp_shift/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank0: Validation, Class Loss=0.6344056725502014, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done test
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6344056725502014, Class Loss=0.6344056725502014, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.882568
+Mean Acc: 0.167342
+FreqW Acc: 0.793834
+Mean IoU: 0.144954
+Class IoU:
+	class 0: 0.8976614858329094
+	class 1: 0.2204090009920659
+	class 2: 0.06787960375169944
+	class 3: 0.06518537771565479
+	class 4: 0.08838495382536934
+	class 5: 0.0115103948707235
+	class 6: 0.04006736764438445
+	class 7: 0.004720777011464307
+	class 8: 0.0524469475724478
+	class 9: 0.0012789432316893394
+Class Acc:
+	class 0: 0.9973581261718037
+	class 1: 0.26346226952771334
+	class 2: 0.08994526524085888
+	class 3: 0.06569439630703447
+	class 4: 0.09854898528565294
+	class 5: 0.03874712817515611
+	class 6: 0.040248495764844114
+	class 7: 0.006261975728469246
+	class 8: 0.07113295431659533
+	class 9: 0.0020174565222101652
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 14.5
+Average Mean IoU 14.5
+Mean IoU first 0.0
+Mean IoU last 0.0
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2
+Run in 146s
+
+
+CSS) ren2@Ren2:~/data2/mengya/mengya_code/CVPR2021_PLOP$ bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/synthetic_with_tem/shot_noise/ILT_24_4_temperature_apply_customized_endo_instru_17-18_not_train_step0.sh
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_shot_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_shot_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: Dataset: endo_instru, Train set: 2139, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Model restored from ./checkpoints/step1_synthetic_mengya/synthetic_temp_shift/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Validation, Class Loss=0.6380048990249634, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.6380048990249634, Class Loss=0.6380048990249634, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.883999
+Mean Acc: 0.172098
+FreqW Acc: 0.796416
+Mean IoU: 0.150070
+Class IoU:
+	class 0: 0.8990610502231614
+	class 1: 0.21523862876666902
+	class 2: 0.07604568366440305
+	class 3: 0.1085008168033522
+	class 4: 0.037774424434473416
+	class 5: 0.013957524005213695
+	class 6: 0.060057520089983725
+	class 7: 0.008539754790968326
+	class 8: 0.0633441525796512
+	class 9: 0.01818419516748623
+Class Acc:
+	class 0: 0.997512782653209
+	class 1: 0.25378707730915034
+	class 2: 0.10205252451232341
+	class 3: 0.11130211445901801
+	class 4: 0.04062666904040292
+	class 5: 0.04694452246678486
+	class 6: 0.060505213625400206
+	class 7: 0.01181099600733468
+	class 8: 0.06813291332284953
+	class 9: 0.028303984767290017
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 15.01
+Average Mean IoU 15.97
+Mean IoU first 15.01
+Mean IoU last 0.0
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2
+Run in 1803s
+(CSS) ren2@Ren2:~/data2/mengya/mengya_code/CVPR2021_PLOP$ 
+
+
+
+(CSS) ren2@Ren2:~/data2/mengya/mengya_code/CVPR2021_PLOP$ bash /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/scripts/mengya_ours/test_robustness/synthetic_with_tem/speckle_noise/ILT_24_4_temperature_apply_customized_endo_instru_17-18_not_train_step0.sh
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2Writing in results/2022-10-03_endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T.csv
+/home/ren2/anaconda3/envs/CSS/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank1: Device: cuda:1
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+INFO:rank2: Device: cuda:2
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Learning for 1 with lrs=[0.001].
+################################################################################
+opts.step [1]
+step 1
+################################################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: [!] starting logging at directory ./logs/17-18-endo_instru/ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T/
+INFO:rank0: Device: cuda:0
+task_dict {0: [0, 1, 2, 3, 4, 5, 6, 7], 1: [8, 9]}
+file_name_list ['train_17.txt', 'test_17.txt', 'train_harmonized_blended_18_GAN_17_memory500.txt', 'test_17_18_robustness_speckle_noise.txt']
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/train_harmonized_blended_18_GAN_17_memory500.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+file_path /home/ren2/data2/mengya/mengya_code/CVPR2021_PLOP/EndoInstrument_Pre/test_17_18_robustness_speckle_noise.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+INFO:rank0: Dataset: endo_instru, Train set: 2139, Val set: 8605, Test set: 8605, n_classes 10
+INFO:rank0: Total batch size is 96
+INFO:rank0: Backbone: resnet101
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: [!] Model made with pre-trained
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+============ CrossEntropyLoss =============
+INFO:rank2: tensor([[55]])
+INFO:rank0: [!] Previous model loaded from ./checkpoints/step/17-18-endo_instru_FT_0_best.pth
+============ CrossEntropyLoss =============
+INFO:rank0: tensor([[55]])
+============ CrossEntropyLoss =============
+INFO:rank1: tensor([[55]])
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO:rank0: *** Model restored from ./checkpoints/step1_synthetic_mengya/synthetic_temp_shift/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+ ,INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Validation, Class Loss=0.47512683272361755, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.47512683272361755, Class Loss=0.47512683272361755, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 8607.000000
+Overall Acc: 0.891786
+Mean Acc: 0.213352
+FreqW Acc: 0.816508
+Mean IoU: 0.182015
+Class IoU:
+	class 0: 0.914461588006804
+	class 1: 0.2892755390687815
+	class 2: 0.11161885897991665
+	class 3: 0.18549113424917862
+	class 4: 0.0498337483733215
+	class 5: 0.016159188132561935
+	class 6: 0.10258499534925682
+	class 7: 0.02967850126245682
+	class 8: 0.10264647902876424
+	class 9: 0.01840292724922898
+Class Acc:
+	class 0: 0.9964961483315179
+	class 1: 0.363744008367236
+	class 2: 0.1677715064103184
+	class 3: 0.19429831959231986
+	class 4: 0.055293931633600975
+	class 5: 0.06319238885398787
+	class 6: 0.10420427708885038
+	class 7: 0.04978768749324221
+	class 8: 0.1108949929540239
+	class 9: 0.027837411609055535
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 0
+best_iou 0.0
+Last Step: 1
+Final Mean IoU 18.2
+Average Mean IoU 16.53
+Mean IoU first 18.2
+Mean IoU last 0.0
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2
+Run in 1842s

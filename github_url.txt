@@ -1,0 +1,10 @@
+
+
+https://github.com/arthurdouillard/CVPR2021_PLOP/
+
+PLOP on 15-1 overlapped setting of VOC, step 1:
+
+python -m torch.distributed.launch --nproc_per_node=2 run.py --data_root data --batch_size 12 --dataset voc --name PLOP --task 15-5s --overlapped --step 1 --lr 0.001 --epochs 30 --method FT --pod local --pod_factor 0.01 --pod_logits --pseudo entropy --threshold 0.001 --classif_adaptive_factor --init_balanced --pod_options "{"switch": {"after": {"extra_channels": "sum", "factor": 0.0005, "type": "local"}}}"
+
+
+python -m torch.distributed.launch --nproc_per_node=2 run.py --data_root /home/ren2/data2/mengya/mengya_dataset/EndoVis/ --batch_size 12 --dataset endo_instru --name LWF --task 17-18 --step 0 --lr 0.01 --epochs 1 --method LWF

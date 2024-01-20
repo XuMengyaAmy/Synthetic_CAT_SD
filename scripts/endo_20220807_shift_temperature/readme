@@ -1,0 +1,3 @@
+You can adjust the opts.loss_de in line 93 & line 101 in argparser.py
+
+这个opts.loss_de，我试过100 20 10三个值，10表现得很烂，100和20都还可以，可以尝试在100或者和20之间调整这个值

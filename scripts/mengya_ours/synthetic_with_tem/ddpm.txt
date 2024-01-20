@@ -1,0 +1,1021 @@
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.919738
+Mean Acc: 0.476020
+FreqW Acc: 0.881450
+Mean IoU: 0.324642
+Class IoU:
+        class 0: 0.9540379417018245
+        class 1: 0.424393462119187
+        class 2: 0.2276524931230121
+        class 3: 0.5138730736740164
+        class 4: 0.15999642907046596
+        class 5: 0.08185762840731291
+        class 6: 0.5284850854676255
+        class 7: 0.06349502883331709
+        class 8: 0.21545128730172816
+        class 9: 0.07718069015041405
+Class Acc:
+        class 0: 0.976908571296957
+        class 1: 0.671034156279673
+        class 2: 0.39045051398986774
+        class 3: 0.6906951075266258
+        class 4: 0.16957512844976155
+        class 5: 0.22947950651261817
+        class 6: 0.5836068630517458
+        class 7: 0.08343854537595306
+        class 8: 0.40895617706596027
+        class 9: 0.5560578201836055
+
+################################################################################
+################################################################################
+score 0.32464231198489035
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 80/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 81, lr = 0.000224
+INFO:rank0: Epoch 81, Batch 10/22, Loss=0.08927403949201107
+INFO:rank0: Loss made of: CE 0.07661735266447067, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 81, Batch 20/22, Loss=0.08109733387827874
+INFO:rank0: Loss made of: CE 0.0763307437300682, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 81, Class Loss=0.08545205742120743, Reg Loss=0.0
+INFO:rank0: End of Epoch 81/100, Average Loss=0.08545205742120743, Class Loss=0.08545205742120743, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+INFO:rank2: Done validation
+################################################################################
+################################################################################
+INFO:rank0: Validation, Class Loss=0.3033248484134674, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 81/100, Validation Loss=0.3033248484134674, Class Loss=0.3033248484134674, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.917569
+Mean Acc: 0.480629
+FreqW Acc: 0.879781
+Mean IoU: 0.321529
+Class IoU:
+        class 0: 0.9523563659322207
+        class 1: 0.42127356638409974
+        class 2: 0.22827979998129358
+        class 3: 0.513339361872945
+        class 4: 0.13927370552663715
+        class 5: 0.08348852346931385
+        class 6: 0.5317990133408006
+        class 7: 0.06302189645567674
+        class 8: 0.21152375828208528
+        class 9: 0.07093089352914922
+Class Acc:
+        class 0: 0.9737774776356066
+        class 1: 0.6786321866389424
+        class 2: 0.3982132632589758
+        class 3: 0.6941240623056916
+        class 4: 0.14650206478566377
+        class 5: 0.2392527133775594
+        class 6: 0.5917841895205755
+        class 7: 0.08062749541372528
+        class 8: 0.4148219107685512
+        class 9: 0.5885507888822699
+
+score 0.3215286884774221
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 81/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 82, lr = 0.000214
+INFO:rank0: Epoch 82, Batch 10/22, Loss=0.08088569939136506
+INFO:rank0: Loss made of: CE 0.06855439394712448, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 82, Batch 20/22, Loss=0.09099567905068398
+INFO:rank0: Loss made of: CE 0.07366202771663666, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 82, Class Loss=0.08553499728441238, Reg Loss=0.0
+INFO:rank0: End of Epoch 82/100, Average Loss=0.08553499728441238, Class Loss=0.08553499728441238, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.3024836480617523, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank2: Done validation
+INFO:rank0: End of Validation 82/100, Validation Loss=0.3024836480617523, Class Loss=0.3024836480617523, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.917650
+Mean Acc: 0.474788
+FreqW Acc: 0.879807
+Mean IoU: 0.320690
+Class IoU:
+        class 0: 0.952486093933713
+        class 1: 0.4280709829189981
+        class 2: 0.23193878798494852
+        class 3: 0.5131094116552153
+        class 4: 0.14118234678763136
+        class 5: 0.07928657355413986
+        class 6: 0.5220581010500452
+        class 7: 0.058602735516830644
+        class 8: 0.21298743714695276
+        class 9: 0.0671794035687985
+Class Acc:
+        class 0: 0.97432076878527
+        class 1: 0.6843563500690439
+        class 2: 0.40429999886212753
+        class 3: 0.6909295584679856
+        class 4: 0.14920738865886748
+        class 5: 0.21313081116743274
+        class 6: 0.5772902980686224
+        class 7: 0.07512004963840088
+        class 8: 0.38931117543479793
+        class 9: 0.5899170778814532
+
+score 0.3206901874117274
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 82/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 83, lr = 0.000203
+INFO:rank0: Epoch 83, Batch 10/22, Loss=0.08152412101626397
+INFO:rank0: Loss made of: CE 0.08751803636550903, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 83, Batch 20/22, Loss=0.09618235230445862
+INFO:rank0: Loss made of: CE 0.08916911482810974, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 83, Class Loss=0.08574565500020981, Reg Loss=0.0
+INFO:rank0: End of Epoch 83/100, Average Loss=0.08574565500020981, Class Loss=0.08574565500020981, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank2: Done validation
+INFO:rank1: Done validation
+################################################################################
+################################################################################
+INFO:rank0: Validation, Class Loss=0.29784584045410156, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 83/100, Validation Loss=0.29784584045410156, Class Loss=0.29784584045410156, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.919047
+Mean Acc: 0.481008
+FreqW Acc: 0.880857
+Mean IoU: 0.324583
+Class IoU:
+        class 0: 0.9530162126624034
+        class 1: 0.42787052059473035
+        class 2: 0.22924878100571258
+        class 3: 0.5134276555245503
+        class 4: 0.16200541398061818
+        class 5: 0.08237094858965993
+        class 6: 0.5348018411121768
+        class 7: 0.05877137077773669
+        class 8: 0.21000859106454034
+        class 9: 0.07431051791813836
+Class Acc:
+        class 0: 0.9755825565666464
+        class 1: 0.6712940303064684
+        class 2: 0.3929273740048059
+        class 3: 0.6937662392397583
+        class 4: 0.17099564135327072
+        class 5: 0.2368112121784326
+        class 6: 0.5937153998777507
+        class 7: 0.07438491421161866
+        class 8: 0.4072554613770434
+        class 9: 0.5933473353687646
+
+score 0.32458318532302666
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 83/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 84, lr = 0.000192
+INFO:rank0: Epoch 84, Batch 10/22, Loss=0.0807157389819622
+INFO:rank0: Loss made of: CE 0.08182535320520401, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 84, Batch 20/22, Loss=0.0836028017103672
+INFO:rank0: Loss made of: CE 0.07558048516511917, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 84, Class Loss=0.08437442034482956, Reg Loss=0.0
+INFO:rank0: End of Epoch 84/100, Average Loss=0.08437442034482956, Class Loss=0.08437442034482956, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank2: Done validation
+INFO:rank1: Done validation
+################################################################################################################################################################
+
+INFO:rank0: Validation, Class Loss=0.29683685302734375, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 84/100, Validation Loss=0.29683685302734375, Class Loss=0.29683685302734375, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.919205
+Mean Acc: 0.479731
+FreqW Acc: 0.881197
+Mean IoU: 0.324308
+Class IoU:
+        class 0: 0.9532744622406235
+        class 1: 0.4303032279316372
+        class 2: 0.22726360028109943
+        class 3: 0.5154942867970131
+        class 4: 0.1537063498622401
+        class 5: 0.08072994296368984
+        class 6: 0.53668900270444
+        class 7: 0.06262075742366616
+        class 8: 0.20987145239001784
+        class 9: 0.07312472608705896
+Class Acc:
+        class 0: 0.9759971546119278
+        class 1: 0.6598482583875401
+        class 2: 0.39398303510119104
+        class 3: 0.6950772327058646
+        class 4: 0.16204180366524443
+        class 5: 0.23405281996820967
+        class 6: 0.5979896485720793
+        class 7: 0.08148942484072315
+        class 8: 0.4062975072338984
+        class 9: 0.5905348149289563
+
+score 0.3243077808681486
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 84/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 85, lr = 0.000181
+INFO:rank0: Epoch 85, Batch 10/22, Loss=0.08886011466383933
+INFO:rank0: Loss made of: CE 0.08392603695392609, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 85, Batch 20/22, Loss=0.08614193573594094
+INFO:rank0: Loss made of: CE 0.0813414454460144, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 85, Class Loss=0.08446129411458969, Reg Loss=0.0
+INFO:rank0: End of Epoch 85/100, Average Loss=0.08446129411458969, Class Loss=0.08446129411458969, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.2938218116760254, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank2: Done validation
+INFO:rank0: End of Validation 85/100, Validation Loss=0.2938218116760254, Class Loss=0.2938218116760254, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.919964
+Mean Acc: 0.484116
+FreqW Acc: 0.881890
+Mean IoU: 0.327340
+Class IoU:
+        class 0: 0.9535084807524695
+        class 1: 0.4282265090170156
+        class 2: 0.22737593125111885
+        class 3: 0.5167373589733016
+        class 4: 0.16450105019156802
+        class 5: 0.0835392782366784
+        class 6: 0.5501262425676533
+        class 7: 0.057755196206800544
+        class 8: 0.21309238817947518
+        class 9: 0.0785352501196911
+Class Acc:
+        class 0: 0.9760978472649536
+        class 1: 0.658616046709926
+        class 2: 0.3926460160545481
+        class 3: 0.6995708757485969
+        class 4: 0.17424252798986314
+        class 5: 0.2548956060162126
+        class 6: 0.6141417171927793
+        class 7: 0.07344475018874307
+        class 8: 0.4065821167981661
+        class 9: 0.5909272596414877
+
+score 0.32733976854957725
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 85/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 86, lr = 0.000170
+INFO:rank0: Epoch 86, Batch 10/22, Loss=0.07900154516100884
+INFO:rank0: Loss made of: CE 0.07521761208772659, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 86, Batch 20/22, Loss=0.08252219557762146
+INFO:rank0: Loss made of: CE 0.08547728508710861, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 86, Class Loss=0.08445124328136444, Reg Loss=0.0
+INFO:rank0: End of Epoch 86/100, Average Loss=0.08445124328136444, Class Loss=0.08445124328136444, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.29554685950279236, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank2: Done validation
+INFO:rank0: End of Validation 86/100, Validation Loss=0.29554685950279236, Class Loss=0.29554685950279236, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.919572
+Mean Acc: 0.479946
+FreqW Acc: 0.881591
+Mean IoU: 0.324803
+Class IoU:
+        class 0: 0.9531900514105054
+        class 1: 0.4331285569162236
+        class 2: 0.22517310509769597
+        class 3: 0.5146162916936846
+        class 4: 0.14881073269554873
+        class 5: 0.07670796764737084
+        class 6: 0.5515888420410285
+        class 7: 0.06180869278208036
+        class 8: 0.20876169464860808
+        class 9: 0.07424462075572177
+Class Acc:
+        class 0: 0.9755331737108138
+        class 1: 0.6697909948537388
+        class 2: 0.38475510103451394
+        class 3: 0.6957164847107712
+        class 4: 0.1578138791952031
+        class 5: 0.21830189630304644
+        class 6: 0.6175411381100645
+        class 7: 0.08083252400981866
+        class 8: 0.4230200545587995
+        class 9: 0.5761597104588249
+
+score 0.32480305556884675
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 86/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 87, lr = 0.000159
+INFO:rank0: Epoch 87, Batch 10/22, Loss=0.07883630022406578
+INFO:rank0: Loss made of: CE 0.0706053078174591, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 87, Batch 20/22, Loss=0.09199055731296539
+INFO:rank0: Loss made of: CE 0.09988852590322495, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 87, Class Loss=0.084835946559906, Reg Loss=0.0
+INFO:rank0: End of Epoch 87/100, Average Loss=0.084835946559906, Class Loss=0.084835946559906, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.2959853410720825, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done validation
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 87/100, Validation Loss=0.2959853410720825, Class Loss=0.2959853410720825, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.919410
+Mean Acc: 0.480886
+FreqW Acc: 0.881380
+Mean IoU: 0.324913
+Class IoU:
+        class 0: 0.9533533125106969
+        class 1: 0.4305937708749088
+        class 2: 0.23317519614145557
+        class 3: 0.5175120450896223
+        class 4: 0.15911058314299933
+        class 5: 0.07842113697154311
+        class 6: 0.534978771660693
+        class 7: 0.05943646086773934
+        class 8: 0.20715843400530595
+        class 9: 0.07538926605348621
+Class Acc:
+        class 0: 0.9755590744605495
+        class 1: 0.687941297669022
+        class 2: 0.3987630867466764
+        class 3: 0.6859222307784536
+        class 4: 0.1684185495826625
+        class 5: 0.2326196083498432
+        class 6: 0.5939176337028124
+        class 7: 0.07591858206529092
+        class 8: 0.41543278007722334
+        class 9: 0.5743646392737275
+
+score 0.32491289773184506
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 87/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 88, lr = 0.000148
+INFO:rank0: Epoch 88, Batch 10/22, Loss=0.09009905904531479
+INFO:rank0: Loss made of: CE 0.08794784545898438, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 88, Batch 20/22, Loss=0.08306009620428086
+INFO:rank0: Loss made of: CE 0.10032303631305695, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 88, Class Loss=0.08461622893810272, Reg Loss=0.0
+INFO:rank0: End of Epoch 88/100, Average Loss=0.08461622893810272, Class Loss=0.08461622893810272, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank2: Done validation
+INFO:rank1: Done validation
+################################################################################
+################################################################################
+INFO:rank0: Validation, Class Loss=0.30100128054618835, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 88/100, Validation Loss=0.30100128054618835, Class Loss=0.30100128054618835, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918561
+Mean Acc: 0.475502
+FreqW Acc: 0.880568
+Mean IoU: 0.319409
+Class IoU:
+        class 0: 0.9531319496834503
+        class 1: 0.42885040701726257
+        class 2: 0.22778066173045505
+        class 3: 0.5151232001858085
+        class 4: 0.13264201962402844
+        class 5: 0.077388843394948
+        class 6: 0.5301144055675692
+        class 7: 0.06106285746644305
+        class 8: 0.19727735722782752
+        class 9: 0.07071793701973297
+Class Acc:
+        class 0: 0.975796513503919
+        class 1: 0.6604610793018513
+        class 2: 0.3983232279565159
+        class 3: 0.70047136054397
+        class 4: 0.13948540332713816
+        class 5: 0.20895361147571134
+        class 6: 0.5846593902210011
+        class 7: 0.07852865004845348
+        class 8: 0.4135515802743806
+        class 9: 0.5947935668093897
+
+score 0.3194089638917525
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 88/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 89, lr = 0.000137
+INFO:rank0: Epoch 89, Batch 10/22, Loss=0.07933828458189965
+INFO:rank0: Loss made of: CE 0.07492294907569885, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 89, Batch 20/22, Loss=0.08597635179758072
+INFO:rank0: Loss made of: CE 0.10278915613889694, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 89, Class Loss=0.08398023247718811, Reg Loss=0.0
+INFO:rank0: End of Epoch 89/100, Average Loss=0.08398023247718811, Class Loss=0.08398023247718811, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank0: Validation, Class Loss=0.29995056986808777, Reg Loss=0.0 (without scaling)
+INFO:rank1: Done validation
+INFO:rank0: Done validation
+INFO:rank2: Done validation
+INFO:rank0: End of Validation 89/100, Validation Loss=0.29995056986808777, Class Loss=0.29995056986808777, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918206
+Mean Acc: 0.482774
+FreqW Acc: 0.880561
+Mean IoU: 0.323100
+Class IoU:
+        class 0: 0.9528454752189727
+        class 1: 0.4251948436471261
+        class 2: 0.22820371948432505
+        class 3: 0.5141140885050598
+        class 4: 0.15807019825254104
+        class 5: 0.080752507771243
+        class 6: 0.5328636228679606
+        class 7: 0.06526078349467712
+        class 8: 0.20213812032074407
+        class 9: 0.07155812094025535
+Class Acc:
+        class 0: 0.9746317106746056
+        class 1: 0.6625269318182304
+        class 2: 0.3978522757001544
+        class 3: 0.6987779573963571
+        class 4: 0.16646518871885366
+        class 5: 0.23086950572038062
+        class 6: 0.5931900125228676
+        class 7: 0.08577749001822896
+        class 8: 0.423818349678087
+        class 9: 0.5938269900174141
+
+################################################################################
+score 0.3231001480502905
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 89/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 90, lr = 0.000126
+INFO:rank0: Epoch 90, Batch 10/22, Loss=0.0843272402882576
+INFO:rank0: Loss made of: CE 0.0883035808801651, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 90, Batch 20/22, Loss=0.08989636227488518
+INFO:rank0: Loss made of: CE 0.11493775248527527, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 90, Class Loss=0.08335620164871216, Reg Loss=0.0
+INFO:rank0: End of Epoch 90/100, Average Loss=0.08335620164871216, Class Loss=0.08335620164871216, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+INFO:rank2: Done validation
+INFO:rank0: Validation, Class Loss=0.2983371615409851, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+################################################################################################################################################################
+
+INFO:rank0: End of Validation 90/100, Validation Loss=0.2983371615409851, Class Loss=0.2983371615409851, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918633
+Mean Acc: 0.480088
+FreqW Acc: 0.880746
+Mean IoU: 0.324783
+Class IoU:
+        class 0: 0.9529012584227483
+        class 1: 0.427629101995518
+        class 2: 0.2299589128234919
+        class 3: 0.5152548119001272
+        class 4: 0.16418641069357068
+        class 5: 0.08205263326360697
+        class 6: 0.5315753765203878
+        class 7: 0.061972134554628105
+        class 8: 0.2125266049105381
+        class 9: 0.06976859226128256
+Class Acc:
+        class 0: 0.9750266273395082
+        class 1: 0.6782226660517733
+        class 2: 0.3912179917409753
+        class 3: 0.6939677616781182
+        class 4: 0.17412674560596625
+        class 5: 0.23998012228939364
+        class 6: 0.5879420973363009
+        class 7: 0.08144626092575612
+        class 8: 0.4151967623897818
+        class 9: 0.5637540970460267
+
+score 0.32478258373459
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 90/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 91, lr = 0.000115
+INFO:rank0: Epoch 91, Batch 10/22, Loss=0.08812211006879807
+INFO:rank0: Loss made of: CE 0.06622374802827835, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 91, Batch 20/22, Loss=0.08466060906648636
+INFO:rank0: Loss made of: CE 0.07954052835702896, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 91, Class Loss=0.08530334383249283, Reg Loss=0.0
+INFO:rank0: End of Epoch 91/100, Average Loss=0.08530334383249283, Class Loss=0.08530334383249283, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.29869839549064636, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done validation
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 91/100, Validation Loss=0.29869839549064636, Class Loss=0.29869839549064636, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918828
+Mean Acc: 0.475067
+FreqW Acc: 0.880653
+Mean IoU: 0.321349
+Class IoU:
+        class 0: 0.9533575165206621
+        class 1: 0.42365850584885095
+        class 2: 0.2321425782909517
+        class 3: 0.5130429376068695
+        class 4: 0.14263575443335422
+        class 5: 0.07852303895017133
+        class 6: 0.5283001276428759
+        class 7: 0.05891887347260901
+        class 8: 0.20923007670745264
+        class 9: 0.07368393228884612
+Class Acc:
+        class 0: 0.9758802889407244
+        class 1: 0.66383323679281
+        class 2: 0.40586453107609494
+        class 3: 0.6992051498419436
+        class 4: 0.14987967346859138
+        class 5: 0.2162925192099598
+        class 6: 0.5838851536186418
+        class 7: 0.07467627063764612
+        class 8: 0.3936427941690189
+        class 9: 0.5875115371435292
+
+score 0.3213493341762644
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 91/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 92, lr = 0.000103
+INFO:rank0: Epoch 92, Batch 10/22, Loss=0.08206697031855584
+INFO:rank0: Loss made of: CE 0.07235530018806458, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 92, Batch 20/22, Loss=0.08668136522173882
+INFO:rank0: Loss made of: CE 0.08929338306188583, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 92, Class Loss=0.08320138603448868, Reg Loss=0.0
+INFO:rank0: End of Epoch 92/100, Average Loss=0.08320138603448868, Class Loss=0.08320138603448868, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.2999536693096161, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done validation
+INFO:rank0: Done validation
+################################################################################
+INFO:rank0: End of Validation 92/100, Validation Loss=0.2999536693096161, Class Loss=0.2999536693096161, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918591
+Mean Acc: 0.477299
+FreqW Acc: 0.880717
+Mean IoU: 0.320655
+Class IoU:
+        class 0: 0.9532733105725155
+        class 1: 0.42892536489225874
+        class 2: 0.2305297996022501
+        class 3: 0.5136176583546677
+        class 4: 0.1345166570450232
+        class 5: 0.08110612792552431
+        class 6: 0.5294337420989871
+        class 7: 0.062545959975658
+        class 8: 0.20100179677473312
+        class 9: 0.07159783536949535
+Class Acc:
+        class 0: 0.9754681892745862
+        class 1: 0.6770068789966392
+        class 2: 0.3966578315717014
+        class 3: 0.6916588150477588
+        class 4: 0.14098683940218817
+        class 5: 0.22376106417602026
+        class 6: 0.5845759731493119
+        class 7: 0.08145705190449787
+        class 8: 0.4061378482100409
+        class 9: 0.5952804889527156
+
+score 0.3206548252611113
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 92/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 93, lr = 0.000091
+INFO:rank0: Epoch 93, Batch 10/22, Loss=0.07895245850086212
+INFO:rank0: Loss made of: CE 0.0670430138707161, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 93, Batch 20/22, Loss=0.08656701743602753
+INFO:rank0: Loss made of: CE 0.07467251271009445, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 93, Class Loss=0.08360479027032852, Reg Loss=0.0
+INFO:rank0: End of Epoch 93/100, Average Loss=0.08360479027032852, Class Loss=0.08360479027032852, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank0: Validation, Class Loss=0.2993638217449188, Reg Loss=0.0 (without scaling)
+INFO:rank1: Done validation
+INFO:rank2: Done validation
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 93/100, Validation Loss=0.2993638217449188, Class Loss=0.2993638217449188, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918783
+Mean Acc: 0.478510
+FreqW Acc: 0.880817
+Mean IoU: 0.322323
+Class IoU:
+        class 0: 0.9530151300320472
+        class 1: 0.4261625185734948
+        class 2: 0.22642732787602263
+        class 3: 0.5133510480870275
+        class 4: 0.13997719691870716
+        class 5: 0.07878469777222623
+        class 6: 0.5425942379749651
+        class 7: 0.060723870142818236
+        class 8: 0.20819345681718562
+        class 9: 0.07400295673496371
+Class Acc:
+        class 0: 0.9751576061950211
+        class 1: 0.6623232664994778
+        class 2: 0.39699758456823914
+        class 3: 0.7006140507236366
+        class 4: 0.14780181541779663
+        class 5: 0.21837391698738648
+        class 6: 0.604873659937828
+        class 7: 0.07700577317352297
+        class 8: 0.4042427650138192
+        class 9: 0.597707832174669
+
+################################################################################
+score 0.3223232440929458
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 93/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 94, lr = 0.000079
+INFO:rank0: Epoch 94, Batch 10/22, Loss=0.07994785457849503
+INFO:rank0: Loss made of: CE 0.06893452256917953, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 94, Batch 20/22, Loss=0.08188189119100571
+INFO:rank0: Loss made of: CE 0.0904737189412117, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 94, Class Loss=0.08346956223249435, Reg Loss=0.0
+INFO:rank0: End of Epoch 94/100, Average Loss=0.08346956223249435, Class Loss=0.08346956223249435, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank0: Validation, Class Loss=0.298339307308197, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done validation
+INFO:rank1: Done validation
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 94/100, Validation Loss=0.298339307308197, Class Loss=0.298339307308197, Reg Loss=0.0
+################################################################################
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918920
+Mean Acc: 0.476975
+FreqW Acc: 0.880857
+Mean IoU: 0.322076
+Class IoU:
+        class 0: 0.9534494412120031
+        class 1: 0.4257091295989405
+        class 2: 0.22963316282796686
+        class 3: 0.5153001589814201
+        class 4: 0.1513888035103683
+        class 5: 0.07959674347122635
+        class 6: 0.5270010981990342
+        class 7: 0.05929221887303713
+        class 8: 0.2075509050784226
+        class 9: 0.07184187811358606
+Class Acc:
+        class 0: 0.9763033655279921
+        class 1: 0.660820596038359
+        class 2: 0.3968694188173131
+        class 3: 0.6997201516288635
+        class 4: 0.15943234262601988
+        class 5: 0.2272252590927754
+        class 6: 0.5780799563144873
+        class 7: 0.07522256393644758
+        class 8: 0.40027211450745
+        class 9: 0.5958037485694241
+
+score 0.3220763539866005
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 94/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 95, lr = 0.000067
+INFO:rank0: Epoch 95, Batch 10/22, Loss=0.08541364818811417
+INFO:rank0: Loss made of: CE 0.06994891911745071, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 95, Batch 20/22, Loss=0.09171743467450141
+INFO:rank0: Loss made of: CE 0.08873085677623749, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 95, Class Loss=0.0838579460978508, Reg Loss=0.0
+INFO:rank0: End of Epoch 95/100, Average Loss=0.0838579460978508, Class Loss=0.0838579460978508, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.2989603281021118, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done validation
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 95/100, Validation Loss=0.2989603281021118, Class Loss=0.2989603281021118, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918853
+Mean Acc: 0.474840
+FreqW Acc: 0.880557
+Mean IoU: 0.320902
+Class IoU:
+        class 0: 0.9534112517626051
+        class 1: 0.4247182047987065
+        class 2: 0.22978373943973426
+        class 3: 0.5109240268468478
+        class 4: 0.1433384520991748
+        class 5: 0.08252139976420222
+        class 6: 0.525409235474248
+        class 7: 0.0593001630123814
+        class 8: 0.20680793184835417
+        class 9: 0.07280312399709306
+Class Acc:
+        class 0: 0.9763160434732194
+        class 1: 0.6583725973056107
+        class 2: 0.40126421483279584
+        class 3: 0.7014587765872631
+        class 4: 0.15095408419227974
+        class 5: 0.21898609280427667
+        class 6: 0.5777978103367148
+        class 7: 0.07522256393644758
+        class 8: 0.401077351323427
+        class 9: 0.5869519400534382
+
+score 0.32090175290433465
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 95/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 96, lr = 0.000055
+INFO:rank0: Epoch 96, Batch 10/22, Loss=0.08971894606947899
+INFO:rank0: Loss made of: CE 0.08522428572177887, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 96, Batch 20/22, Loss=0.07834222465753556
+INFO:rank0: Loss made of: CE 0.07210921496152878, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 96, Class Loss=0.08488365262746811, Reg Loss=0.0
+INFO:rank0: End of Epoch 96/100, Average Loss=0.08488365262746811, Class Loss=0.08488365262746811, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank2: Done validation
+INFO:rank1: Done validation
+################################################################################
+################################################################################
+INFO:rank0: Validation, Class Loss=0.30408573150634766, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 96/100, Validation Loss=0.30408573150634766, Class Loss=0.30408573150634766, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.917373
+Mean Acc: 0.476367
+FreqW Acc: 0.879558
+Mean IoU: 0.319847
+Class IoU:
+        class 0: 0.9525570918006093
+        class 1: 0.42223354832615695
+        class 2: 0.23261472463998908
+        class 3: 0.5125373753501045
+        class 4: 0.14610231993358747
+        class 5: 0.07930763218769811
+        class 6: 0.5170634641454556
+        class 7: 0.058989268977794905
+        class 8: 0.2073541897504448
+        class 9: 0.06970624899550473
+Class Acc:
+        class 0: 0.9741385731573192
+        class 1: 0.6830598998679522
+        class 2: 0.4076080403150241
+        class 3: 0.689978583301346
+        class 4: 0.15399430549847554
+        class 5: 0.2236314269442082
+        class 6: 0.5718629310303545
+        class 7: 0.07613575051246879
+        class 8: 0.4000985720902136
+        class 9: 0.5831583078323014
+
+score 0.31984658641073455
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 96/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 97, lr = 0.000043
+INFO:rank0: Epoch 97, Batch 10/22, Loss=0.0939095064997673
+INFO:rank0: Loss made of: CE 0.08729337155818939, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 97, Batch 20/22, Loss=0.08583662286400795
+INFO:rank0: Loss made of: CE 0.07495718449354172, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 97, Class Loss=0.08428557962179184, Reg Loss=0.0
+INFO:rank0: End of Epoch 97/100, Average Loss=0.08428557962179184, Class Loss=0.08428557962179184, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.3009320795536041, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done validation
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 97/100, Validation Loss=0.3009320795536041, Class Loss=0.3009320795536041, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.917872
+Mean Acc: 0.478480
+FreqW Acc: 0.879845
+Mean IoU: 0.322383
+Class IoU:
+        class 0: 0.9519910957537651
+        class 1: 0.4256112106300479
+        class 2: 0.22935126045672707
+        class 3: 0.5144455780393268
+        class 4: 0.14022027052453062
+        class 5: 0.08106159713432026
+        class 6: 0.5373438677319591
+        class 7: 0.0650719477360697
+        class 8: 0.20802813091620942
+        class 9: 0.07070055913834132
+Class Acc:
+        class 0: 0.9737440950376918
+        class 1: 0.6850848733239366
+        class 2: 0.3949234228594652
+        class 3: 0.6889525311478661
+        class 4: 0.14742583391309919
+        class 5: 0.23161131876908286
+        class 6: 0.6016326613583729
+        class 7: 0.0847509981654193
+        class 8: 0.4004040067445497
+        class 9: 0.5762687228789725
+
+score 0.32238255180612974
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 97/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 98, lr = 0.000030
+INFO:rank0: Epoch 98, Batch 10/22, Loss=0.08195656388998032
+INFO:rank0: Loss made of: CE 0.10558328777551651, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 98, Batch 20/22, Loss=0.08345466256141662
+INFO:rank0: Loss made of: CE 0.08715849369764328, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 98, Class Loss=0.08445986360311508, Reg Loss=0.0
+INFO:rank0: End of Epoch 98/100, Average Loss=0.08445986360311508, Class Loss=0.08445986360311508, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.2993350625038147, Reg Loss=0.0 (without scaling)
+INFO:rank2: Done validation
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 98/100, Validation Loss=0.2993350625038147, Class Loss=0.2993350625038147, Reg Loss=0.0
+################################################################################
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.918645
+Mean Acc: 0.476983
+FreqW Acc: 0.880341
+Mean IoU: 0.321852
+Class IoU:
+        class 0: 0.9525853072946984
+        class 1: 0.4282833266223085
+        class 2: 0.22993156406280202
+        class 3: 0.5125958504210664
+        class 4: 0.13466375126897795
+        class 5: 0.07949107192166262
+        class 6: 0.5377958807156967
+        class 7: 0.06124018205851873
+        class 8: 0.2088464764651688
+        class 9: 0.0730861842976603
+Class Acc:
+        class 0: 0.9748459201076427
+        class 1: 0.682494527863028
+        class 2: 0.3941248516421566
+        class 3: 0.6888638437131196
+        class 4: 0.14085113746837355
+        class 5: 0.2176032956649482
+        class 6: 0.6023858684468609
+        class 7: 0.07853134779313892
+        class 8: 0.4130726032028081
+        class 9: 0.5770536123040352
+
+score 0.32185195951285606
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 98/100, best epoch=35, best iou=0.32800143953679084
+INFO:rank0: Pseudo labeling is: None
+INFO:rank0: Epoch 99, lr = 0.000016
+INFO:rank0: Epoch 99, Batch 10/22, Loss=0.08007914572954178
+INFO:rank0: Loss made of: CE 0.08081956952810287, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 99, Batch 20/22, Loss=0.08306711092591286
+INFO:rank0: Loss made of: CE 0.0828973799943924, LKD 0.0, LDE 0.0, LReg 0.0, POD 0.0 EntMin 0.0
+INFO:rank0: Epoch 99, Class Loss=0.08354845643043518, Reg Loss=0.0
+INFO:rank0: End of Epoch 99/100, Average Loss=0.08354845643043518, Class Loss=0.08354845643043518, Reg Loss=0.0
+INFO:rank0: validate on val set...
+INFO:rank1: Done validation
+################################################################################
+INFO:rank2: Done validation
+################################################################################
+INFO:rank0: Validation, Class Loss=0.2975825071334839, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done validation
+INFO:rank0: End of Validation 99/100, Validation Loss=0.2975825071334839, Class Loss=0.2975825071334839, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.919005
+Mean Acc: 0.479061
+FreqW Acc: 0.880885
+Mean IoU: 0.323060
+Class IoU:
+        class 0: 0.9530293138437793
+        class 1: 0.4308943765262112
+        class 2: 0.23040784811597925
+        class 3: 0.5191276781685148
+        class 4: 0.15635099477807132
+        class 5: 0.07562912745899508
+        class 6: 0.5291972192880999
+        class 7: 0.06065440957634022
+        class 8: 0.20245475208282698
+        class 9: 0.07285075636012006
+Class Acc:
+        class 0: 0.9758591856105139
+        class 1: 0.6811020848683308
+        class 2: 0.38811850402479275
+        class 3: 0.6866888063282934
+        class 4: 0.16472845296040028
+        class 5: 0.23605499499286234
+        class 6: 0.584417200319584
+        class 7: 0.07917341102827348
+        class 8: 0.4173625717568923
+        class 9: 0.5771044847667708
+
+score 0.32305964761989386
+INFO:rank0: [!] Checkpoint saved.
+################################################################################
+INFO:rank0: End of Validation 99/100, best epoch=35, best iou=0.32800143953679084
+best_score 0.0
+INFO:rank0: [!] Checkpoint saved.
+INFO:rank0: *** Test the model on all seen classes...
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!  DeepLab model !!!!!!!!!!!!!!!!!!!!!!!!!!!
+============ CrossEntropyLoss =============
+============ CrossEntropyLoss =============
+INFO:rank0: *** Model restored from ./checkpoints/step1_synthetic_mengya/synthetic_temp_shift/17-18-endo_instru_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T_1_best.pth
+============ CrossEntropyLoss =============
+INFO:rank1: Done test
+INFO:rank2: Done test
+INFO:rank0: Validation, Class Loss=0.2949397563934326, Reg Loss=0.0 (without scaling)
+INFO:rank0: Done test
+INFO:rank0: *** End of Test, Total Loss=0.2949397563934326, Class Loss=0.2949397563934326, Reg Loss=0.0
+INFO:rank0: 
+Total samples: 1722.000000
+Overall Acc: 0.920214
+Mean Acc: 0.485137
+FreqW Acc: 0.883202
+Mean IoU: 0.329304
+Class IoU:
+        class 0: 0.9547281009565048
+        class 1: 0.4309375593171502
+        class 2: 0.22738406237127456
+        class 3: 0.5314206231526782
+        class 4: 0.18429119477208616
+        class 5: 0.080826719531167
+        class 6: 0.5385448905556612
+        class 7: 0.055899468772553564
+        class 8: 0.20820637898608552
+        class 9: 0.08080438316808783
+Class Acc:
+        class 0: 0.97633104703733
+        class 1: 0.6645697898631375
+        class 2: 0.4231214048176496
+        class 3: 0.6964589126917443
+        class 4: 0.19999228117415788
+        class 5: 0.2545859170735505
+        class 6: 0.5924431142885409
+        class 7: 0.07315474263505833
+        class 8: 0.38517392420788177
+        class 9: 0.5855347785915193
+
+INFO:rank0: Closing the Logger.
+End of step !!!!!!!!!!!!!!!!!!!!
+best_epoch 35
+best_iou 0.32800143953679084
+Last Step: 1
+Final Mean IoU 32.93
+Average Mean IoU 37.98
+Mean IoU first 37.55
+Mean IoU last 14.45
+endo_instru_17-18_ILT_and_Intermediate_Shift_24_4_loss_de_50_Custumized_T On GPUs 0,1,2
+Run in 5526s
