@@ -1,20 +1,8 @@
 <div align="center">
 
-# PLOP: Learning without Forgetting for Continual Semantic Segmentation
-
-[![Paper](https://img.shields.io/badge/arXiv-2011.11390-brightgreen)](https://arxiv.org/abs/2011.11390)
-[![Conference](https://img.shields.io/badge/CVPR-2021-blue)](https://arxiv.org/abs/2011.11390)
-[![Youtube](https://img.shields.io/badge/Youtube-link-red)](https://youtu.be/GmnglAsraAM?t=2562)
+# Privacy-Preserving Synthetic Continual Semantic Segmentation for Robotic Surgery
 
 </div>
-
-
-![Vizualization on VOC 15-1](images/plop_viz.png)
-
-
-This repository contains all of our code. It is a modified version of
-[Cermelli et al.'s repository](https://github.com/fcdl94/MiB).
-
 
 ```
 @inproceedings{douillard2021plop,
@@ -50,12 +38,7 @@ Note that while the code should be runnable without mixed precision (apex), some
 
 # Dataset
 
-Two scripts are available to download ADE20k and Pascal-VOC 2012, please see in the `data` folder.
-For Cityscapes, you need to do it yourself, because you have to ask "permission" to the holders; but be
-reassured, it's only a formality, you can get the link in a few days by mail.
-
-![Performance on VOC](images/plop_voc.png)
-
+EndoVison 2017 and 2018
 
 # How to perform training
 The most important file is run.py, that is in charge to start the training or test procedure.
@@ -88,16 +71,10 @@ For all details please follow the information provided using the help option.
 
 #### Example commands
 
-LwF on the 100-50 setting of ADE20K, step 0:
+LwF, step 0:
 > python -m torch.distributed.launch --nproc_per_node=2 run.py --data_root data --batch_size 12 --dataset ade --name LWF --task 100-50 --step 0 --lr 0.01 --epochs 60 --method LWF
 
-MIB on the 50b setting of ADE20K, step 2:
-> python -m torch.distributed.launch --nproc_per_node=2 run.py --data_root data --batch_size 12 --dataset ade --name MIB --task 100-50 --step 2 --lr 0.001 --epochs 60 --method MIB
-
-LWF-MC on 15-5 disjoint setting of VOC, step 1:
-> python -m torch.distributed.launch --nproc_per_node=2 run.py --data_root data --batch_size 12 --dataset voc --name LWF-MC --task 15-5 --step 1 --lr 0.001 --epochs 30 --method LWF-MC
-
-PLOP on 15-1 overlapped setting of VOC, step 1:
+PLOP, step 1:
 > python -m torch.distributed.launch --nproc_per_node=2 run.py --data_root data --batch_size 12 --dataset voc --name PLOP --task 15-5s --overlapped --step 1 --lr 0.001 --epochs 30 --method FT --pod local --pod_factor 0.01 --pod_logits --pseudo entropy --threshold 0.001 --classif_adaptive_factor --init_balanced --pod_options "{\"switch\": {\"after\": {\"extra_channels\": \"sum\", \"factor\": 0.0005, \"type\": \"local\"}}}"
 
 
