@@ -4,15 +4,6 @@
 
 </div>
 
-```
-@inproceedings{douillard2021plop,
-  title={PLOP: Learning without Forgetting for Continual Semantic Segmentation},
-  authors={Douillard, Arthur and Chen, Yifu and Dapogny, Arnaud and Cord, Matthieu},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2021}
-}
-```
-
 # Requirements
 
 You need to install the following libraries:
