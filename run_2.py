@@ -24,7 +24,7 @@ from dataset import (AdeSegmentationIncremental,
 
 from metrics import StreamSegMetrics
 from segmentation_module import make_model
-from train_Long_complex import Trainer 
+from train import Trainer 
 from utils.logger import Logger
 
 
